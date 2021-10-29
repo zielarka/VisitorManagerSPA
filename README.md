@@ -2,6 +2,9 @@
 
 An application for displaying entries based on a given time frame. 
 
+![Bez tytułu](https://user-images.githubusercontent.com/92297647/139380894-dda60b85-c6d0-497f-8214-388040743f24.png)
+
+
 ## Development server
 
 First, use `npm install` to add the missing libraries.
