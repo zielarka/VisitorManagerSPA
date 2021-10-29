@@ -1,0 +1,28 @@
+
+<div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col col-lg-2">
+        <form [formGroup]="datepickerForm" novalidate>
+          <my-date-picker name="mydate"  [(ngModel)]="startDate"  
+          formControlName="startDate"  ></my-date-picker>
+      </form>
+      </div>
+
+      <div class="col col-lg-2">
+        <form [formGroup]="datepickerTo" novalidate>
+          <my-date-picker name="mydate" [(ngModel)]="endDate"
+          formControlName="endDate" ></my-date-picker>
+      </form>
+      </div>
+
+      <div class="col col-lg-2">
+        <button mat-raised-button color="primary" (click)="onRefresh()" >Refresh</button>
+      </div>
+
+    <div class="row justify-content-md-center">
+      <div class="col">
+          <app-barchart></app-barchart>
+      </div>
+    </div>
+  </div>
+
