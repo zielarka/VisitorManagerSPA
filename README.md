@@ -13,11 +13,11 @@ If you want to use a different port use the command `ng serve --port 8080`
 
 ## Data set
 By default, the application uses the Mockup API which generates random numbers representing the number of visits each time.
-Example: `https://opticounter.pl/apicountsv3/Mockup/?startDate=2021-06-25+07%3a18%3a28&endDate=2021-07-02+07%3a18%3a28`
+
 
 If you want to use a different dataset, change the Base Api URL adapting the date data to the given format. 
 `src\environments\environment.ts`
-`BASE_API_URL:'https://opticounter.pl/apicountsv3/Mockup'`
+`BASE_API_URL`
 
 | KEY | VALUE | 
 | :---: | :---: | 
