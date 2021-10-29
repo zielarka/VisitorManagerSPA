@@ -1,4 +1,4 @@
-# SuperControlVisitorManagerSPA
+# VisitorManagerSPA
 
 An application for displaying entries based on a given time frame. 
 
